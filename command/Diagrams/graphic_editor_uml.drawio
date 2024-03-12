@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-03-11T21:01:59.323Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="qACYgyg4Pp-ZqGc5SaOj" version="21.2.1" type="device">
+<mxfile host="Electron" modified="2024-03-12T10:53:10.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="s7ywbVn_357VZcK7veyL" version="21.2.1" type="device">
   <diagram name="Strona-1" id="BchxE57i_t1PECSyct9q">
-    <mxGraphModel dx="2328" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2103" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,7 +52,7 @@
         <mxCell id="ITwDlLuQBXxI53-09EQk-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="ITwDlLuQBXxI53-09EQk-18" vertex="1">
           <mxGeometry y="70" width="340" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ITwDlLuQBXxI53-09EQk-21" value="+ DrawLine(start: Coordinations, stop:Coordinations) : void&lt;br&gt;+ FillBlock(a: Coordinations, b:Coordinations,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; c: Coordinations, d:Coordinations) : void&lt;br&gt;+ WipeBlock(a: Coordinations, b:Coordinations,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;c: Coordinations, d:Coordinations) : void&lt;br&gt;&amp;nbsp;+ GetCanvaRepresentation(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ITwDlLuQBXxI53-09EQk-18" vertex="1">
+        <mxCell id="ITwDlLuQBXxI53-09EQk-21" value="+ DrawLine(start: Coordinations, stop:Coordinations) : void&lt;br&gt;+ WipeLine(start: Coordinations, stop:Coordinations) : void&amp;nbsp;&lt;br&gt;&amp;nbsp;+ GetCanvaRepresentation(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ITwDlLuQBXxI53-09EQk-18" vertex="1">
           <mxGeometry y="78" width="340" height="102" as="geometry" />
         </mxCell>
         <mxCell id="ITwDlLuQBXxI53-09EQk-22" value="CanvaUnit" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
